@@ -5,8 +5,6 @@ import Card from '../UI/Card';
 import './ExpenseItem.css';
 
 function ExpenseItem(props) {
-  console.log('ExpenseItem evaluated by React');
-
   return (
     <Card className="expense-item">
       <ExpenseDate date={props.date} />
